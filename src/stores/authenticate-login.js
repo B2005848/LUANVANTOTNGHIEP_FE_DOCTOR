@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 
 export const useAuthStore = defineStore("auth", {
   state: () => ({
-    staffId: Cookies.get("staffId") || null,
+    doctorId: Cookies.get("doctorId") || null,
     accessToken: Cookies.get("accessToken") || null, // Access Token
     refreshToken: Cookies.get("refreshToken") || null, // Refresh Token
     isLogged: Cookies.get("isLogged") || false, // state login
@@ -13,13 +13,13 @@ export const useAuthStore = defineStore("auth", {
   actions: {
     //  store
     login(
-      staff_id,
+      doctor_id,
       accessToken,
       accessTokenExpiry,
       refreshToken,
       refreshTokenExpiry
     ) {
-      this.staffId = staff_id;
+      this.doctorId = doctor_id;
       this.accessToken = accessToken;
       this.refreshToken = refreshToken;
       this.isLogged = true;
@@ -38,7 +38,7 @@ export const useAuthStore = defineStore("auth", {
         expires: refreshExpiryDate,
         secure: true,
       }); // 7 ngày
-      Cookies.set("staffId", staff_id, { expires: accessExpiryDate });
+      Cookies.set("doctorId", doctor_id, { expires: accessExpiryDate });
       Cookies.set("isLogged", this.isLogged, {
         expires: accessExpiryDate,
         secure: true,
@@ -47,13 +47,13 @@ export const useAuthStore = defineStore("auth", {
 
     // Đăng xuất và xóa thông tin
     logout() {
-      this.staffId = null;
+      this.doctorId = null;
       this.accessToken = null;
       this.refreshToken = null;
       this.isLogged = false;
       Cookies.remove("accessToken");
       Cookies.remove("refreshToken");
-      Cookies.remove("staffId");
+      Cookies.remove("doctorId");
       Cookies.remove("isLogged");
     },
 

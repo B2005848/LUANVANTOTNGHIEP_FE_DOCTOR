@@ -1,4 +1,4 @@
-const admin = [
+const doctor = [
   // Router for admin login page (separated from admin routes).
   {
     path: "/login",
@@ -26,6 +26,16 @@ const admin = [
         },
       },
 
+      //---------------------------------------------------------Router for admin request managements page (CHAT ONLINE)
+      {
+        path: "request_managements",
+        name: "doctor.requests",
+        component: () => import("../pages/request_managements/index.vue"),
+        meta: {
+          title: "CTU CLINIC - Các yêu cầu",
+        },
+      },
+
       // Nội dung đoạn chat theo id
       {
         path: "chatcontent/:id",
@@ -38,4 +48,4 @@ const admin = [
     ],
   },
 ];
-export default admin;
+export default doctor;

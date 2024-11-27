@@ -5,8 +5,7 @@
         <router-link
           class="tw-flex tw-items-center tw-gap-4"
           :to="{
-            name: 'admin.patient_details',
-            params: { username: inforPatient.patient_id },
+            name: 'doctor.patients',
           }"
         >
           <img
@@ -60,7 +59,6 @@
 import { ref, onMounted, onBeforeUnmount, nextTick } from "vue";
 import axios from "axios";
 import { io } from "socket.io-client";
-import Cookies from "js-cookie";
 import { useRoute } from "vue-router";
 import formatDate from "@/helper/format-datetime";
 

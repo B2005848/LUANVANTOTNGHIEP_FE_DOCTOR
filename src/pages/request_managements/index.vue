@@ -121,7 +121,7 @@ const selectChat = (contactId) => {
   console.log("Selected Chat:", contactId);
   // Điều hướng đến route chatcontent/:id
   router.push({
-    name: "admin.chat", // Tên route đã định nghĩa trong Vue Router
+    name: "doctor.chat", // Tên route đã định nghĩa trong Vue Router
     params: { id: contactId }, // Truyền contactId làm tham số
   });
 };

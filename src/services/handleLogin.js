@@ -15,7 +15,7 @@ export const handleLoginService = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await window.axios.post(
+      const response = await axios.post(
         "http://localhost:3000/api/staff/account/doctorLogin",
         loginData.value
       );
@@ -37,13 +37,13 @@ export const handleLoginService = () => {
         );
         console.log("Login success", loginData.value.username);
         router.push({
-          name: "patients_managements",
+          name: "doctor.page",
         });
       }
     } catch (error) {
+      console.error("Error during login:", error);
       errorMessage.value =
         error.response?.data?.message || "Đăng nhập thất bại";
-      console.log(error.response.data.message);
     }
   };
 
@@ -54,7 +54,7 @@ export const handleLoginService = () => {
 
       // navigate to list product page
       router.push({
-        name: "admin.login",
+        name: "doctor.login",
       });
       console.log("sign out success", loginData.value.username);
     } catch (error) {

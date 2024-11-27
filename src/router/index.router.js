@@ -1,15 +1,15 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Admin from "./doctor.router";
+import doctor from "./doctor.router";
 import { useAuthStore } from "@/stores/authenticate-login";
 import PageNotFound from "@/pages/404page_not_found/index.vue";
 const routes = [
-  ...Admin,
+  ...doctor,
   {
     path: "/:pathMatch(.*)*",
     name: "not-found",
     component: PageNotFound,
     meta: {
-      title: "404 - Page Not Found",
+      title: "404 - Trang không tồn tại",
     },
   },
 ];
@@ -21,8 +21,8 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   const authStore = useAuthStore();
   document.title = to.meta?.title ?? "No title page!!!";
-  if (to.path.startsWith("/admin") && !authStore.isLogged) {
-    next({ name: "admin.login" });
+  if (to.path.startsWith("/doctor") && !authStore.isLogged) {
+    next({ name: "doctor.login" });
   } else {
     next();
   }
