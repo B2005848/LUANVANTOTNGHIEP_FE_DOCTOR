@@ -106,8 +106,8 @@ h1 {
     <div class="flex-1">
       <div class="form-login">
         <p>
-          "Chào mừng bạn đến với khu vực "quản trị viên", vui lòng đăng nhập để
-          tiếp tục"
+          "Chào mừng bạn đến với khu vực "BÁC SĨ", vui lòng đăng nhập để tiếp
+          tục"
         </p>
         <form @submit.prevent="handleLogin">
           <div class="box-input">

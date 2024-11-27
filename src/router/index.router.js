@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Admin from "./admin.router";
+import Admin from "./doctor.router";
 import { useAuthStore } from "@/stores/authenticate-login";
 import PageNotFound from "@/pages/404page_not_found/index.vue";
 const routes = [
