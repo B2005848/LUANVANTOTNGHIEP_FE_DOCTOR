@@ -105,6 +105,12 @@ h1 {
 
     <div class="flex-1">
       <div class="form-login">
+        <img
+          style="align-items: center; justify-self: center; margin-bottom: 20px"
+          src="\DoctorIconB.svg"
+          alt=""
+          width="250"
+        />
         <p>
           "Chào mừng bạn đến với khu vực "BÁC SĨ", vui lòng đăng nhập để tiếp
           tục"
@@ -150,7 +156,6 @@ h1 {
 
 <script setup>
 import { ref } from "vue";
-import { handleLoginService } from "@/services/handleLogin";
 //------------------------ handle show pass
 const passwordFieldType = ref("password");
 const iconPasswd = ref("fa-eye");
@@ -165,5 +170,10 @@ const showPass = () => {
 };
 
 // ------------------------------------------------------------------ HANDLE LOGIN-------------------------------------
-const { loginData, handleLogin, errorMessage } = handleLoginService();
+const loginData = ref({
+  username: "",
+  password: "",
+});
+
+const handleLogin = async () => {};
 </script>

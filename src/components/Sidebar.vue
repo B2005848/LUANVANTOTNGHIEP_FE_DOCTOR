@@ -42,18 +42,6 @@ a:focus {
 <!-- -----------------------------------TEMPLATE------------------------------ -->
 <template>
   <ul>
-    <!-- ------------------------------------CHART--------------------------------- -->
-    <li>
-      <font-awesome-icon
-        icon=" fa-solid fa-chart-simple"
-        style="color: #094067"
-        size="sm"
-      />
-      <router-link :to="{ name: 'admin.dashboard' }">
-        THỐNG KÊ DOANH THU</router-link
-      >
-    </li>
-
     <!-- ------------------------------------------------ACCOUNT PATIENT MANAGEMENTS--------------------------------- -->
     <li>
       <font-awesome-icon
@@ -67,65 +55,6 @@ a:focus {
       >
     </li>
 
-    <!-- ------------------------------------------------ACCOUNT STAFF MANAGEMENTS--------------------------------- -->
-    <li>
-      <font-awesome-icon
-        icon="fa-solid fa-user"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'admin.emp' }">QUẢN LÍ NHÂN VIÊN</router-link>
-    </li>
-
-    <li>
-      <font-awesome-icon
-        icon="fa-solid fa-calendar"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'admin.shifts' }"
-        >QUẢN LÍ CA LÀM VIỆC</router-link
-      >
-    </li>
-
-    <li>
-      <font-awesome-icon
-        icon="fa-solid fa-window-restore"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'admin.departments' }"
-        >QUẢN LÍ PHÒNG LÀM VIỆC</router-link
-      >
-    </li>
-
-    <li>
-      <font-awesome-icon
-        :icon="['fab', 'creative-commons-nd']"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'admin.services' }"
-        >QUẢN LÍ DỊCH VỤ</router-link
-      >
-    </li>
-
-    <li>
-      <font-awesome-icon
-        :icon="['far', 'calendar-check']"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'admin.booking' }"
-        >QUẢN LÍ LỊCH HẸN</router-link
-      >
-    </li>
-
     <li>
       <font-awesome-icon
         icon="fa-regular fa-bell"
@@ -136,15 +65,6 @@ a:focus {
       <router-link :to="{ name: 'admin.requests' }"
         >HỖ TRỢ BỆNH NHÂN</router-link
       >
-    </li>
-    <li>
-      <font-awesome-icon
-        icon="fa-solid fa-gear"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'admin.settings' }">CÀI ĐẶT</router-link>
     </li>
   </ul>
 </template>
