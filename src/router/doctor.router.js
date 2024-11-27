@@ -18,12 +18,42 @@ const doctor = [
     },
     children: [
       {
-        path: "patients_managements",
+        path: "appointment_managements",
+        name: "doctor.appointment",
+        component: () => import("../pages/appointment_managements/index.vue"),
+        meta: {
+          title: "CTU CLINIC - Quản lí lịch hẹn",
+        },
+      },
+
+      {
+        path: "patients_managements/:id",
         name: "doctor.patients",
         component: () => import("../pages/patient_managements/index.vue"),
         meta: {
-          title: "CTU CLINIC - Quản lí bệnh nhân",
+          title: "CTU CLINIC - Hồ sơ bệnh nhân",
         },
+        children: [
+          {
+            path: "appointment_history",
+            name: "doctor.history",
+            component: () =>
+              import("../pages/patient_managements/history_appointment.vue"),
+            meta: {
+              title: "CTU CLINIC - LỊCH SỬ KHÁM BỆNH",
+            },
+          },
+
+          {
+            path: "treatment_history",
+            name: "admin.patient_detail.treatment_history",
+            component: () =>
+              import("../pages/patient_managements/treatment_history.vue"),
+            meta: {
+              title: "CTU CLINIC - QUÁ TRÌNH ĐIỀU TRỊ",
+            },
+          },
+        ],
       },
     ],
   },

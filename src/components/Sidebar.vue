@@ -42,19 +42,7 @@ a:focus {
 <!-- -----------------------------------TEMPLATE------------------------------ -->
 <template>
   <ul>
-    <!-- ------------------------------------------------ACCOUNT PATIENT MANAGEMENTS--------------------------------- -->
-    <li>
-      <font-awesome-icon
-        icon="fa-solid fa-bed-pulse"
-        style="color: #094067"
-        size="sm"
-        class="me-2"
-      />
-      <router-link :to="{ name: 'doctor.patients' }"
-        >DANH SÁCH BỆNH NHÂN</router-link
-      >
-    </li>
-
+    <!-- LỊCH HẸN  -->
     <li>
       <font-awesome-icon
         icon="fa-regular fa-bell"
@@ -62,7 +50,9 @@ a:focus {
         size="sm"
         class="me-2"
       />
-      <router-link to="">LỊCH HẸN SẮP TỚI</router-link>
+      <router-link :to="{ name: 'doctor.appointment' }"
+        >LỊCH HẸN SẮP TỚI</router-link
+      >
     </li>
   </ul>
 </template>

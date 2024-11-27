@@ -37,7 +37,7 @@ export const handleLoginService = () => {
         );
         console.log("Login success", loginData.value.username);
         router.push({
-          name: "doctor.page",
+          name: "doctor.appointment",
         });
       }
     } catch (error) {
