@@ -156,6 +156,7 @@ h1 {
 
 <script setup>
 import { ref } from "vue";
+import { handleLoginService } from "@/services/handleLogin";
 //------------------------ handle show pass
 const passwordFieldType = ref("password");
 const iconPasswd = ref("fa-eye");
@@ -170,10 +171,5 @@ const showPass = () => {
 };
 
 // ------------------------------------------------------------------ HANDLE LOGIN-------------------------------------
-const loginData = ref({
-  username: "",
-  password: "",
-});
-
-const handleLogin = async () => {};
+const { loginData, handleLogin, errorMessage } = handleLoginService();
 </script>

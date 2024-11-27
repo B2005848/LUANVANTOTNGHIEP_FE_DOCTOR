@@ -1,10 +1,8 @@
-import { comment } from "postcss";
-
 const admin = [
   // Router for admin login page (separated from admin routes).
   {
     path: "/login",
-    name: "admin.login",
+    name: "doctor.login",
     component: () => import("../layouts/account.login.vue"),
     meta: {
       title: "CTU CLINIC - Bác sĩ đăng nhập",
@@ -12,8 +10,8 @@ const admin = [
   },
   // -----------------------------------Router for admin pages
   {
-    path: "/admin",
-    name: "admin.page",
+    path: "/doctor",
+    name: "doctor.page",
     component: () => import("../layouts/index.vue"),
     meta: {
       title: "CTU CLINIC - Bác sĩ",
@@ -21,7 +19,7 @@ const admin = [
     children: [
       {
         path: "patients_managements",
-        name: "admin.patients",
+        name: "doctor.patients",
         component: () => import("../pages/patient_managements/index.vue"),
         meta: {
           title: "CTU CLINIC - Quản lí bệnh nhân",
@@ -31,7 +29,7 @@ const admin = [
       // Nội dung đoạn chat theo id
       {
         path: "chatcontent/:id",
-        name: "admin.chat",
+        name: "doctor.chat",
         component: () => import("../pages/request_managements/chatcontent.vue"),
         meta: {
           title: "CTU CLINIC - Nhắn tin hỗ trợ ",

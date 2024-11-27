@@ -49,7 +49,7 @@ import formatDate from "@/helper/format-datetime";
 const formatDateTime = formatDate.formatDateTime;
 const router = useRouter();
 // Lấy ID người gửi từ cookie
-const senderId = Cookies.get("staffId");
+const senderId = "Admin";
 
 if (!senderId) {
   console.error("SenderId not found in cookies!");

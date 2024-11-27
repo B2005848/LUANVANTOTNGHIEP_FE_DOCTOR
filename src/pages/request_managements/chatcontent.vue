@@ -66,7 +66,7 @@ import formatDate from "@/helper/format-datetime";
 
 const formatTime = formatDate.formatTime;
 const route = useRoute();
-const senderId = Cookies.get("staffId");
+const senderId = "Admin";
 
 const socket = io("http://localhost:3000");
 
