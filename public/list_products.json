@@ -1,0 +1,330 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bột uống Kolmar Condition Probio Cumin ",
+      "description": "Bổ sung lợi khuẩn, hỗ trợ tăng cường tiêu hóa, giảm các triệu chứng rối loạn tiêu hóa do loạn khuẩn đường ruột, tăng sức đề kháng",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Không sử dụng cho người mẫn cảm, kiêng kỵ với bất kỳ thành phần nào của sản phẩm.",
+        "Ngừng sử dụng khi phát hiện bất thường.",
+        "Không sử dụng vượt quá liều lượng được khuyến nghị hàng ngày.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng.",
+        "Đọc kỹ hướng dẫn sử dụng trước khi dùng."
+      ],
+      "production": [
+        {
+          "pageket": "Hộp 30 gói",
+          "origin": "Hàn Quốc",
+          "createBy": "Novarex Co., Ltd\n Địa chỉ: 94 Gangni 1 - gil, Ochang - eup, Cheongwon - gu, Cheongju - si, Chungcheongbuk - do, Hàn Quốc(Korea)",
+          "facility": "CÔNG TY TNHH HANKOL HEALTHCARE VINA\n Địa chỉ: Lầu 7, Tòa nhà CJ, 2bis 4-6 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",
+          "numberid": "3780/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "485000",
+      "originalPrice": "500000",
+      "type": "TPCN",
+      "typegroup": "Hộp",
+      "rating": "4.5",
+      "sales": "192"
+    },
+
+    {
+      "id": 2,
+      "name": "Bột uống Menvi Probiotics",
+      "description": "Bổ sung lợi khuẩn, hỗ trợ tiêu hóa, giảm triệu chứng rối loạn tiêu hóa, tăng sức đề kháng",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Không sử dụng cho người mẫn cảm, kiêng kỵ với bất kỳ thành phần nào của sản phẩm.",
+        "Ngừng sử dụng khi phát hiện bất thường.",
+        "Không sử dụng vượt quá liều lượng được khuyến nghị hàng ngày.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng.",
+        "Đọc kỹ hướng dẫn sử dụng trước khi dùng."
+      ],
+      "production": [
+        {
+          "pageket": "Hộp 20 gói",
+          "origin": "Nhật Bản",
+          "createBy": "Meiji Co., Ltd\n Địa chỉ: 2-4-16 Kyobashi, Chuo-ku, Tokyo, Nhật Bản",
+          "facility": "CÔNG TY TNHH Y TẾ MEIJI\n Địa chỉ: Tầng 5, Tòa nhà Sunwah, 115 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "4510/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "450000",
+      "originalPrice": "470000",
+      "type": "TPCN",
+      "typegroup": "Hộp",
+      "rating": "4.7",
+      "sales": "210"
+    },
+
+    {
+      "id": 3,
+      "name": "Bột uống Bioflora Digest Hỗ trợ tiêu hóa (Hộp 25 gói)",
+      "description": "Bổ sung lợi khuẩn, hỗ trợ tăng cường tiêu hóa, giảm các triệu chứng rối loạn tiêu hóa, tăng cường sức khỏe đường ruột",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Không sử dụng cho người mẫn cảm, kiêng kỵ với bất kỳ thành phần nào của sản phẩm.",
+        "Ngừng sử dụng khi phát hiện bất thường.",
+        "Không sử dụng vượt quá liều lượng được khuyến nghị hàng ngày.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng.",
+        "Đọc kỹ hướng dẫn sử dụng trước khi dùng."
+      ],
+      "production": [
+        {
+          "pageket": "Hộp 25 gói",
+          "origin": "Mỹ",
+          "createBy": "Bioflora Inc.\n Địa chỉ: 1209 Orange St, Wilmington, DE 19801, USA",
+          "facility": "CÔNG TY TNHH BIOFLORA VIỆT NAM\n Địa chỉ: Tầng 6, Tòa nhà Bitexco, 2 Hải Triều, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "5220/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "470000",
+      "originalPrice": "490000",
+      "type": "TPCN",
+      "typegroup": "Hộp",
+      "rating": "4.6",
+      "sales": "180"
+    },
+
+    {
+      "id": 4,
+      "name": "Bột uống FERROLIP",
+      "description": "Bổ sung lợi khuẩn, hỗ trợ tăng cường tiêu hóa, giảm triệu chứng khó tiêu và đầy hơi",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Không sử dụng cho người mẫn cảm, kiêng kỵ với bất kỳ thành phần nào của sản phẩm.",
+        "Ngừng sử dụng khi phát hiện bất thường.",
+        "Không sử dụng vượt quá liều lượng được khuyến nghị hàng ngày.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng.",
+        "Đọc kỹ hướng dẫn sử dụng trước khi dùng."
+      ],
+      "production": [
+        {
+          "pageket": "Hộp 30 gói",
+          "origin": "Pháp",
+          "createBy": "Lactobacillus Co., Ltd\n Địa chỉ: 75 Rue de Paris, 75001 Paris, France",
+          "facility": "CÔNG TY TNHH LACTOCARE VIỆT NAM\n Địa chỉ: Tầng 10, Tòa nhà Vietcombank, 5 Công Trường Mê Linh, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "6340/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "490000",
+      "originalPrice": "510000",
+      "type": "TPCN",
+      "typegroup": "Hộp",
+      "rating": "4.8",
+      "sales": "220"
+    },
+    {
+      "id": 5,
+      "name": "Bàn chải đánh răng cho răng siêu nhạy cảm Pharmacity Extra Sensitive",
+      "description": "Bàn chải đánh răng cho răng siêu nhạy cảm Pharmacity Extra Sensitive với lông bàn chải xoắn kép tăng cường lực đàn hồi, đầu lông bàn chải chỉ tơ kết tinh chất than hoạt tính và nano bạc siêu kháng khuẩn giúp ngăn ngừa vi khuẩn trong khoang miệng, giúp chải sạch răng, không làm tổn thương nướu và men răng.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Chải răng theo hướng dẫn của nha sĩ.",
+        "Thay bàn chải ít nhất 3 tháng một lần hoặc khi lông màn chải mòn và tưa.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng."
+      ],
+      "production": [
+        {
+          "pageket": "Cây 1",
+          "origin": "Việt Nam",
+          "createBy": "Lactobacillus Co., Ltd\n Địa chỉ: 75 Rue de Paris, 75001 Paris, France",
+          "facility": "CÔNG TY TNHH LACTOCARE VIỆT NAM\n Địa chỉ: Tầng 10, Tòa nhà Vietcombank, 5 Công Trường Mê Linh, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "6340/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "28000",
+      "originalPrice": "35000",
+      "type": "CSCN",
+      "typegroup": "Cây",
+      "rating": "4.8",
+      "sales": "553"
+    },
+    {
+      "id": 6,
+      "name": "Kem đánh răng Sensodyne Repair & Protect",
+      "description": "Giúp giảm ê buốt và bảo vệ răng khỏi những tác động hàng ngày, đồng thời giúp tái tạo và làm chắc men răng.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Sử dụng ít nhất 2 lần mỗi ngày hoặc theo hướng dẫn của nha sĩ.",
+        "Không nuốt kem đánh răng.",
+        "Đậy nắp kín sau khi sử dụng.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng."
+      ],
+      "production": [
+        {
+          "pageket": "Tuýp 100g",
+          "origin": "Anh",
+          "createBy": "GlaxoSmithKline\n Địa chỉ: 980 Great West Road, Brentford, Middlesex, TW8 9GS, Anh",
+          "facility": "CÔNG TY TNHH GSK VIỆT NAM\n Địa chỉ: Tầng 14, Tòa nhà Etown Central, 11 Đoàn Văn Bơ, Quận 4, TP. Hồ Chí Minh",
+          "numberid": "4392/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "95000",
+      "originalPrice": "100000",
+      "type": "CSCN",
+      "typegroup": "Tuýp",
+      "rating": "4.7",
+      "sales": "320"
+    },
+    {
+      "id": 7,
+      "name": "Sữa tắm Dove Deep Moisture",
+      "description": "Dưỡng ẩm sâu, giúp da mềm mịn và mượt mà hơn. Công thức dịu nhẹ phù hợp với mọi loại da, giúp làm sạch và dưỡng ẩm cùng lúc.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Sử dụng hàng ngày để đạt hiệu quả tốt nhất.",
+        "Tránh tiếp xúc trực tiếp với mắt. Nếu sản phẩm dính vào mắt, rửa kỹ với nước.",
+        "Ngừng sử dụng khi có dấu hiệu kích ứng.",
+        "Đậy kín nắp sau khi sử dụng.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng."
+      ],
+      "production": [
+        {
+          "pageket": "Chai 530ml",
+          "origin": "Việt Nam",
+          "createBy": "Unilever Vietnam\n Địa chỉ: Tầng 10, Tòa nhà President Place, 93 Nguyễn Du, Quận 1, TP. Hồ Chí Minh",
+          "facility": "CÔNG TY TNHH UNILEVER VIỆT NAM\n Địa chỉ: Tầng 10, Tòa nhà President Place, 93 Nguyễn Du, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "5190/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "150000",
+      "originalPrice": "165000",
+      "type": "CSCN",
+      "typegroup": "Chai",
+      "rating": "4.9",
+      "sales": "410"
+    },
+    {
+      "id": 8,
+      "name": "Dầu gội Head & Shoulders Clinical Strength",
+      "description": "Giúp loại bỏ gàu hiệu quả và bảo vệ da đầu khỏi ngứa và khô. Công thức đặc biệt dành cho da đầu nhạy cảm, giúp làm sạch sâu và làm dịu da đầu.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Sử dụng ít nhất 2 lần mỗi tuần hoặc theo hướng dẫn của bác sĩ.",
+        "Tránh tiếp xúc với mắt. Nếu sản phẩm dính vào mắt, rửa kỹ với nước.",
+        "Ngừng sử dụng nếu có dấu hiệu kích ứng.",
+        "Đậy kín nắp sau khi sử dụng.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng."
+      ],
+      "production": [
+        {
+          "pageket": "Chai 400ml",
+          "origin": "Mỹ",
+          "createBy": "Procter & Gamble\n Địa chỉ: 1 Procter & Gamble Plaza, Cincinnati, OH 45202, USA",
+          "facility": "CÔNG TY TNHH P&G VIỆT NAM\n Địa chỉ: Tầng 6, Tòa nhà Metropolitan, 235 Đồng Khởi, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "6789/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "180000",
+      "originalPrice": "200000",
+      "type": "CSCN",
+      "typegroup": "Chai",
+      "rating": "4.6",
+      "sales": "270"
+    },
+    {
+      "id": 9,
+      "name": "Bàn chải đánh răng cho răng siêu nhạy cảm Pharmacity Extra Sensitive",
+      "description": "Bàn chải đánh răng cho răng siêu nhạy cảm Pharmacity Extra Sensitive với lông bàn chải xoắn kép tăng cường lực đàn hồi, đầu lông bàn chải chỉ tơ kết tinh chất than hoạt tính và nano bạc siêu kháng khuẩn giúp ngăn ngừa vi khuẩn trong khoang miệng, giúp chải sạch răng, không làm tổn thương nướu và men răng.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Chải răng theo hướng dẫn của nha sĩ.",
+        "Thay bàn chải ít nhất 3 tháng một lần hoặc khi lông màn chải mòn và tưa.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng."
+      ],
+      "production": [
+        {
+          "pageket": "Cây 1",
+          "origin": "Việt Nam",
+          "createBy": "Lactobacillus Co., Ltd\n Địa chỉ: 75 Rue de Paris, 75001 Paris, France",
+          "facility": "CÔNG TY TNHH LACTOCARE VIỆT NAM\n Địa chỉ: Tầng 10, Tòa nhà Vietcombank, 5 Công Trường Mê Linh, Quận 1, TP. Hồ Chí Minh",
+          "numberid": "6340/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "28000",
+      "originalPrice": "35000",
+      "type": "CSCN",
+      "typegroup": "Cây",
+      "rating": "4.8",
+      "sales": "553"
+    },
+    {
+      "id": 10,
+      "name": "Kem đánh răng Sensodyne Repair & Protect",
+      "description": "Giúp giảm ê buốt và bảo vệ răng khỏi những tác động hàng ngày, đồng thời giúp tái tạo và làm chắc men răng.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": [
+        "Sử dụng ít nhất 2 lần mỗi ngày hoặc theo hướng dẫn của nha sĩ.",
+        "Không nuốt kem đánh răng.",
+        "Đậy nắp kín sau khi sử dụng.",
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng."
+      ],
+      "production": [
+        {
+          "pageket": "Tuýp 100g",
+          "origin": "Anh",
+          "createBy": "GlaxoSmithKline\n Địa chỉ: 980 Great West Road, Brentford, Middlesex, TW8 9GS, Anh",
+          "facility": "CÔNG TY TNHH GSK VIỆT NAM\n Địa chỉ: Tầng 14, Tòa nhà Etown Central, 11 Đoàn Văn Bơ, Quận 4, TP. Hồ Chí Minh",
+          "numberid": "4392/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "95000",
+      "originalPrice": "100000",
+      "type": "CSCN",
+      "typegroup": "Tuýp",
+      "rating": "4.7",
+      "sales": "320"
+    },
+    {
+      "id": 11,
+      "name": "Bột pha uống Enzymax Kids giúp bé tăng cường hấp thu dinh dưỡng (30 gói)",
+      "description": "Hỗ trợ tăng cường tiêu hóa thức ăn, hỗ trợ hấp thu chất dinh dưỡng tốt hơn. Hỗ trợ giảm các triệu chứng ăn không tiêu, đi tiêu phân sống, biếng ăn chậm lớn, kém hấp thu dinh dưỡng…do thiếu men tiêu hóa.",
+      "note": "Sản phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Đọc kỹ tờ hướng dẫn sử dụng trước khi dùng.",
+      "note_use": ["Tránh sử dụng sản phẩm đã hết hạn sử dụng."],
+      "production": [
+        {
+          "pageket": "Hộp 30 gói.",
+          "origin": "Anh",
+          "createBy": "GlaxoSmithKline\n Địa chỉ: 980 Great West Road, Brentford, Middlesex, TW8 9GS, Anh",
+          "facility": "CÔNG TY TNHH GSK VIỆT NAM\n Địa chỉ: Tầng 14, Tòa nhà Etown Central, 11 Đoàn Văn Bơ, Quận 4, TP. Hồ Chí Minh",
+          "numberid": "4392/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "360000",
+      "originalPrice": "360000",
+      "type": "MOMABB",
+      "typegroup": "Gói",
+      "rating": "4.7",
+      "sales": "621"
+    },
+
+    {
+      "id": 12,
+      "name": "Dầu Mát-Xa Và Dưỡng Ẩm JOHNSON BABY OIL (200ml)",
+      "description": "Sản phẩm dùng thoa lên da, giúp giữ ẩm, làm giảm và phòng chống nứt nẻ da.",
+      "note": "Mọi thông tin trên đây chỉ mang tính chất tham khảo. Đọc kỹ hướng dẫn sử dụng trước khi dùng",
+      "note_use": [
+        "Tránh sử dụng sản phẩm đã hết hạn sử dụng.",
+        "Nơi khô ráo thoáng mát, tránh ánh nắng trực tiếp."
+      ],
+
+      "production": [
+        {
+          "pageket": "Chai 200ml",
+          "origin": "Anh",
+          "createBy": "GlaxoSmithKline\n Địa chỉ: 980 Great West Road, Brentford, Middlesex, TW8 9GS, Anh",
+          "facility": "CÔNG TY TNHH GSK VIỆT NAM\n Địa chỉ: Tầng 14, Tòa nhà Etown Central, 11 Đoàn Văn Bơ, Quận 4, TP. Hồ Chí Minh",
+          "numberid": "4392/2021/ĐKSP của Cục An Toàn Thực Phẩm – Bộ Y Tế."
+        }
+      ],
+      "currentPrice": "92000",
+      "originalPrice": "115000",
+      "type": "MOMABB",
+      "typegroup": "Chai",
+      "rating": "5.0",
+      "sales": "621"
+    }
+  ]
+}

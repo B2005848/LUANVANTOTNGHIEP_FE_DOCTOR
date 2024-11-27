@@ -1,0 +1,33 @@
+{
+  "departments": [
+    {
+      "id": "PHCN",
+      "name": " PHỤC HỒI CHỨC NĂNG",
+      "description": "Khoa Phục hồi chức năng là khoa chuyên khoa về điều trị các bệnh về xương khớp, thần kinh, tim mạch, phổi, tiêu hóa, da liễu, mắt, tai mũi họng, tai, mũi, họng, tai. "
+    },
+    {
+      "id": "HH",
+      "name": "HÔ HÂP"
+    },
+    {
+      "id": "PS",
+      "name": "PHỤ SẢN"
+    },
+    {
+      "id": "TM",
+      "name": "TIM MẠCH"
+    },
+    {
+      "id": "KN",
+      "name": "NHI KHOA"
+    },
+    {
+      "id": "RHM",
+      "name": "RĂNG HÀM MẶT"
+    },
+    {
+      "id": "NK",
+      "name": "NGOẠI KHOA"
+    }
+  ]
+}

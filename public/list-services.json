@@ -1,0 +1,151 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Khám tim mạch",
+      "description": "Khám tim mạch là một trong những dịch vụ y tế được nhiều người quan tâm nhất hiện nay. Khám tim mạch là một trong những dịch vụ y",
+      "price": 100000,
+      "department": "TM"
+    },
+    {
+      "id": 2,
+      "name": "Khám tai mũi họng",
+      "description": "Khám tai mũi họng là một trong những dịch vụ y tế được nhiều người quan tâm nhất hiện nay. Khám tai mũi họng là một trong những dịch vụ y",
+      "price": 200000,
+      "department": "TM"
+    },
+    {
+      "id": 3,
+      "name": "Khám răng hàm mặt",
+      "description": "Khám răng hàm mặt",
+      "price": 300000,
+      "department": "TM"
+    },
+    {
+      "id": 4,
+      "name": "Khám và điều trị bệnh tiêu hóa",
+      "description": "Khám và điều trị các bệnh liên quan đến hệ tiêu hóa.",
+      "price": 150000,
+      "department": "NK"
+    },
+    {
+      "id": 5,
+      "name": "Khám và phẫu thuật nội soi",
+      "description": "Phẫu thuật nội soi là một phương pháp điều trị ít xâm lấn.",
+      "price": 250000,
+      "department": "NK"
+    },
+    {
+      "id": 6,
+      "name": "Khám và điều trị chấn thương chỉnh hình",
+      "description": "Điều trị các chấn thương liên quan đến xương và khớp.",
+      "price": 350000,
+      "department": "NK"
+    },
+    {
+      "id": 7,
+      "name": "Khám và điều trị viêm phổi",
+      "description": "Khám và điều trị các bệnh viêm phổi và hô hấp.",
+      "price": 180000,
+      "department": "HH"
+    },
+    {
+      "id": 8,
+      "name": "Khám và điều trị hen suyễn",
+      "description": "Điều trị các bệnh liên quan đến hen suyễn.",
+      "price": 280000,
+      "department": "HH"
+    },
+    {
+      "id": 9,
+      "name": "Khám và điều trị viêm mũi dị ứng",
+      "description": "Điều trị viêm mũi dị ứng và các bệnh liên quan.",
+      "price": 380000,
+      "department": "HH"
+    },
+    {
+      "id": 10,
+      "name": "Khám và tư vấn sức khỏe sinh sản",
+      "description": "Tư vấn và khám sức khỏe sinh sản cho phụ nữ.",
+      "price": 200000,
+      "department": "PS"
+    },
+    {
+      "id": 11,
+      "name": "Khám thai kỳ",
+      "description": "Khám và theo dõi sức khỏe thai kỳ.",
+      "price": 300000,
+      "department": "PS"
+    },
+    {
+      "id": 12,
+      "name": "Phẫu thuật sản khoa",
+      "description": "Các dịch vụ phẫu thuật liên quan đến sản khoa.",
+      "price": 400000,
+      "department": "PS"
+    },
+    {
+      "id": 13,
+      "name": "Khám và điều trị bệnh nhi khoa",
+      "description": "Khám và điều trị các bệnh nhi khoa phổ biến.",
+      "price": 150000,
+      "department": "KN"
+    },
+    {
+      "id": 14,
+      "name": "Khám và tiêm chủng cho trẻ em",
+      "description": "Dịch vụ tiêm chủng và khám sức khỏe cho trẻ em.",
+      "price": 250000,
+      "department": "KN"
+    },
+    {
+      "id": 15,
+      "name": "Khám và điều trị bệnh truyền nhiễm ở trẻ",
+      "description": "Điều trị các bệnh truyền nhiễm phổ biến ở trẻ em.",
+      "price": 350000,
+      "department": "KN"
+    },
+    {
+      "id": 16,
+      "name": "Khám và điều trị các bệnh về răng miệng",
+      "description": "Điều trị các bệnh lý về răng miệng.",
+      "price": 200000,
+      "department": "RHM"
+    },
+    {
+      "id": 17,
+      "name": "Phẫu thuật răng miệng",
+      "description": "Các dịch vụ phẫu thuật liên quan đến răng miệng.",
+      "price": 300000,
+      "department": "RHM"
+    },
+    {
+      "id": 18,
+      "name": "Khám và điều trị bệnh nướu",
+      "description": "Điều trị các bệnh lý về nướu.",
+      "price": 400000,
+      "department": "RHM"
+    },
+    {
+      "id": 19,
+      "name": "Khám và điều trị đau lưng",
+      "description": "Điều trị các chứng đau lưng và cột sống.",
+      "price": 220000,
+      "department": "PHCN"
+    },
+    {
+      "id": 20,
+      "name": "Khám và điều trị tai biến mạch máu não",
+      "description": "Điều trị và phục hồi chức năng sau tai biến mạch máu não.",
+      "price": 320000,
+      "department": "PHCN"
+    },
+    {
+      "id": 21,
+      "name": "Khám và điều trị chấn thương thể thao",
+      "description": "Điều trị các chấn thương liên quan đến thể thao.",
+      "price": 420000,
+      "department": "PHCN"
+    }
+  ]
+}
