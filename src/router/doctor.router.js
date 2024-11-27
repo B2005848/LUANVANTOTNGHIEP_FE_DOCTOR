@@ -25,26 +25,6 @@ const doctor = [
           title: "CTU CLINIC - Quản lí bệnh nhân",
         },
       },
-
-      //---------------------------------------------------------Router for admin request managements page (CHAT ONLINE)
-      {
-        path: "request_managements",
-        name: "doctor.requests",
-        component: () => import("../pages/request_managements/index.vue"),
-        meta: {
-          title: "CTU CLINIC - Các yêu cầu",
-        },
-      },
-
-      // Nội dung đoạn chat theo id
-      {
-        path: "chatcontent/:id",
-        name: "doctor.chat",
-        component: () => import("../pages/request_managements/chatcontent.vue"),
-        meta: {
-          title: "CTU CLINIC - Nhắn tin hỗ trợ ",
-        },
-      },
     ],
   },
 ];

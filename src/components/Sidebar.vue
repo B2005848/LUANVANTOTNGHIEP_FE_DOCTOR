@@ -51,7 +51,7 @@ a:focus {
         class="me-2"
       />
       <router-link :to="{ name: 'doctor.patients' }"
-        >QUẢN LÍ BỆNH NHÂN</router-link
+        >DANH SÁCH BỆNH NHÂN</router-link
       >
     </li>
 
@@ -62,9 +62,7 @@ a:focus {
         size="sm"
         class="me-2"
       />
-      <router-link :to="{ name: 'doctor.requests' }"
-        >HỖ TRỢ BỆNH NHÂN</router-link
-      >
+      <router-link to="">LỊCH HẸN SẮP TỚI</router-link>
     </li>
   </ul>
 </template>

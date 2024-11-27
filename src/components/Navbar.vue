@@ -47,7 +47,6 @@ p {
 
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#">Tài khoản</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
         <li>
           <button @click="handleLogout" class="dropdown-item" href="#">
             Đăng xuất
