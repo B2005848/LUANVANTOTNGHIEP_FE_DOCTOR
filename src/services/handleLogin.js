@@ -38,6 +38,7 @@ export const handleLoginService = () => {
         console.log("Login success", loginData.value.username);
         router.push({
           name: "doctor.appointment",
+          params: { staffId: loginData.value.username },
         });
       }
     } catch (error) {

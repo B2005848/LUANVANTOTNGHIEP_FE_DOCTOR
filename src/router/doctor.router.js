@@ -10,7 +10,7 @@ const doctor = [
   },
   // -----------------------------------Router for admin pages
   {
-    path: "/doctor",
+    path: "/doctor/:staffId",
     name: "doctor.page",
     component: () => import("../layouts/index.vue"),
     meta: {

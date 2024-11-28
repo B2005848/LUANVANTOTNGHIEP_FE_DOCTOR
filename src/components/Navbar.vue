@@ -31,6 +31,10 @@ p {
       <img src="/LogoCTUWithText.png" width="150" alt="" />
     </div>
 
+    <h4>
+      Chào mừng, {{ infoData.first_name + " " + infoData.last_name }} đến với
+      khu vực bác sĩ
+    </h4>
     <div class="dropdown">
       <div
         class="btn"
@@ -46,7 +50,6 @@ p {
       </div>
 
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Tài khoản</a></li>
         <li>
           <button @click="handleLogout" class="dropdown-item" href="#">
             Đăng xuất
@@ -58,5 +61,29 @@ p {
 </template>
 <script setup>
 import { handleLoginService } from "@/services/handleLogin";
+import { ref, onMounted } from "vue";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+const staffId = route.params.staffId;
+console.log("StaffID:", staffId);
 const { handleLogout } = handleLoginService();
+const infoData = ref([]);
+const getInfoStaff = async () => {
+  try {
+    const response = await window.axios.get(
+      `http://localhost:3000/api/handle/staff/getInformationDetail/${staffId}`
+    );
+    if (response.status === 200) {
+      console.log("InforStaff:", response.data.data);
+      infoData.value = response.data.data;
+    }
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+onMounted(() => {
+  getInfoStaff();
+});
 </script>
