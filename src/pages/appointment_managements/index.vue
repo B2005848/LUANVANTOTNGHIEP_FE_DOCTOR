@@ -104,7 +104,7 @@
                 <!-- Status -->
                 <td class="tw-px-4 tw-py-2 tw-border-x">
                   <span
-                    v-if="appointment.status === 'CO-F'"
+                    v-if="appointment.status === 'C-IN'"
                     class="text-success"
                   >
                     Đang chờ khám

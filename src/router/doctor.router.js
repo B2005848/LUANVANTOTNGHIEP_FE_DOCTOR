@@ -27,7 +27,7 @@ const doctor = [
       },
 
       {
-        path: "/create_record/:patient_id/:appointment_id/:doctor_id",
+        path: "create_record/:patient_id/:appointment_id/:doctor_id",
         name: "doctor.create_record",
         component: () =>
           import("../pages/appointment_managements/create_record.vue"),

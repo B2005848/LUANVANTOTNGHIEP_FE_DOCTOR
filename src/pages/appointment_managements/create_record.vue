@@ -5,7 +5,6 @@
       style="justify-content: flex-start; gap: 20px; margin-bottom: 20px"
     >
       <div class="tw-text-blue-600 tw-font-bold">Tạo hồ sơ ></div>
-      <div class="tw-text-gray-600">Kê đơn thuốc ></div>
       <div class="tw-text-gray-600-600">Hoàn thành ></div>
     </div>
     <div class="tw-bg-slate-100 tw-shadow-lg tw-rounded-lg tw-p-8">
@@ -255,7 +254,7 @@
         type="submit"
         class="tw-w-full tw-bg-green-500 tw-text-white tw-py-3 tw-rounded-lg tw-shadow-md hover:tw-bg-blue-600 focus:tw-outline-none"
       >
-        TIẾP TỤC KÊ ĐƠN THUỐC
+        HOÀN THÀNH
       </button>
     </div>
   </div>
@@ -332,7 +331,10 @@ const createPatientRecord = async () => {
         cholesterol: cholesterol.value,
       }
     );
-
+    await axios.put(
+      `http://localhost:3000/api/appointment/modifyStatus/${appointment_id.value}`,
+      { status: "CO-P" }
+    );
     // Hiển thị SweetAlert2 thông báo thành công
     if (response.data.status) {
       Swal.fire({
