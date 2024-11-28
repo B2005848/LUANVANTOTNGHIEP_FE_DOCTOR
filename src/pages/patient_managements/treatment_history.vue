@@ -99,8 +99,14 @@ const fetchPatientRecords = async () => {
   }
 };
 
-const goToRecordDetail = (recordId) => {};
-
+const goToRecordDetail = (recordId) => {
+  router.push({
+    name: "doctor.record.history",
+    params: {
+      record_id: recordId,
+    },
+  });
+};
 onMounted(() => {
   fetchPatientRecords();
 });

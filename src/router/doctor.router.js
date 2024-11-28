@@ -53,7 +53,6 @@ const doctor = [
               title: "CTU CLINIC - LỊCH SỬ KHÁM BỆNH",
             },
           },
-
           {
             path: "treatment_history",
             name: "admin.patient_detail.treatment_history",
@@ -64,6 +63,15 @@ const doctor = [
             },
           },
         ],
+      },
+      {
+        path: "doctor.patient_detail.record/:record_id",
+        name: "doctor.record.history",
+        component: () =>
+          import("../pages/patient_managements/record_detail.vue"),
+        meta: {
+          title: "CTU CLINIC - THÔNG TIN QUÁ TRÌNH ĐIỀU TRỊ",
+        },
       },
     ],
   },
