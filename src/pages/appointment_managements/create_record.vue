@@ -123,7 +123,7 @@
           <label
             for="heart_rate"
             class="tw-block tw-font-medium tw-text-lg tw-text-gray-700"
-            >Nhịp Tim</label
+            >Nhịp Tim (bpm)</label
           >
           <input
             v-model="heart_rate"
@@ -155,7 +155,7 @@
           <label
             for="respiratory_rate"
             class="tw-block tw-font-medium tw-text-lg tw-text-gray-700"
-            >Nhịp Thở</label
+            >Hô hấp (breaths/min)</label
           >
           <input
             v-model="respiratory_rate"
@@ -171,7 +171,7 @@
           <label
             for="blood_sugar"
             class="tw-block tw-font-medium tw-text-lg tw-text-gray-700"
-            >Đường Huyết</label
+            >Đường Huyết (mg/dL)</label
           >
           <input
             v-model="blood_sugar"
@@ -187,7 +187,7 @@
           <label
             for="cholesterol"
             class="tw-block tw-font-medium tw-text-lg tw-text-gray-700"
-            >Cholesterol</label
+            >Cholesterol (mg/dL)</label
           >
           <input
             v-model="cholesterol"
