@@ -27,6 +27,16 @@ const doctor = [
       },
 
       {
+        path: "/create_record/:patient_id/:appointment_id/:doctor_id",
+        name: "doctor.create_record",
+        component: () =>
+          import("../pages/appointment_managements/create_record.vue"),
+        meta: {
+          title: "CTU CLINIC - TẠO HỒ SƠ KHÁM BỆNH",
+        },
+      },
+
+      {
         path: "patients_managements/:id",
         name: "doctor.patients",
         component: () => import("../pages/patient_managements/index.vue"),

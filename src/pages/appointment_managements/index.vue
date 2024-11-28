@@ -31,6 +31,12 @@
                   Ngày hẹn
                 </th>
                 <th scope="col" class="tw-px-4 tw-py-2 tw-border-x">
+                  Lí do khám
+                </th>
+                <th scope="col" class="tw-px-4 tw-py-2 tw-border-x">
+                  Dịch vụ khám
+                </th>
+                <th scope="col" class="tw-px-4 tw-py-2 tw-border-x">
                   Trạng thái
                 </th>
                 <th scope="col" class="tw-px-4 tw-py-2 tw-border-x">
@@ -41,7 +47,7 @@
                 </th>
 
                 <th scope="col" class="tw-px-4 tw-py-2 tw-border-x">
-                  Chi tiết
+                  TẠO HỒ SƠ
                 </th>
               </tr>
             </thead>
@@ -61,7 +67,14 @@
 
                 <!-- Patient ID -->
                 <td class="tw-px-4 tw-py-2 tw-border-x">
-                  {{ appointment.patient_id }}
+                  <router-link
+                    :to="{
+                      name: 'doctor.patients',
+                      params: { id: appointment.patient_id },
+                    }"
+                  >
+                    {{ appointment.patient_id }}
+                  </router-link>
                 </td>
 
                 <!-- Full Name -->
@@ -75,6 +88,19 @@
                   {{ formatDateTime(appointment.appointment_date) }}
                 </td>
 
+                <!-- Reason -->
+                <td class="tw-px-4 tw-py-2 tw-border-x">
+                  <span v-if="appointment.reason">
+                    {{ appointment.reason }}</span
+                  >
+
+                  <span v-if="!appointment.reason"> Chờ tư vấn</span>
+                </td>
+
+                <!-- Services -->
+                <td class="tw-px-4 tw-py-2 tw-border-x">
+                  {{ appointment.service_name }}
+                </td>
                 <!-- Status -->
                 <td class="tw-px-4 tw-py-2 tw-border-x">
                   <span
@@ -98,11 +124,15 @@
                 <td class="tw-px-4 tw-py-2 tw-border-x">
                   <router-link
                     :to="{
-                      name: 'doctor.patients',
-                      params: { id: appointment.patient_id },
+                      name: 'doctor.create_record',
+                      params: {
+                        patient_id: appointment.patient_id,
+                        appointment_id: appointment.appointment_id,
+                        doctor_id: appointment.staff_id,
+                      },
                     }"
                   >
-                    Xem
+                    TẠO
                   </router-link>
                 </td>
               </tr>

@@ -100,6 +100,10 @@
                 Đã thanh toán
               </span>
               <span v-if="appointment.payment_status === 'P'">
+                Đang xử lí
+              </span>
+
+              <span v-if="appointment.payment_status === 'X'">
                 Chưa thanh toán
               </span>
               <span v-if="!appointment.payment_status"> Lỗi giao dịch </span>
