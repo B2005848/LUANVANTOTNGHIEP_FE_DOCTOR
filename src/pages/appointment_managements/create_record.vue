@@ -262,12 +262,13 @@
 
 <script setup>
 import { ref } from "vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import axios from "axios";
 import Swal from "sweetalert2";
 
 // Lấy tham số từ URL
 const route = useRoute();
+const router = useRouter();
 const patient_id = ref(route.params.patient_id || "");
 const doctor_id = ref(route.params.doctor_id || "");
 const appointment_id = ref(route.params.appointment_id || "");
@@ -341,6 +342,9 @@ const createPatientRecord = async () => {
         icon: "success",
         title: "Thành công!",
         text: "Hồ sơ bệnh nhân đã được tạo thành công!",
+      });
+      router.push({
+        name: "doctor.appointment",
       });
     } else {
       Swal.fire({
