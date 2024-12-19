@@ -1,47 +1,49 @@
-Clinic Management System
+# Clinic Management System
 
-This project is built using Vue 3 with Vite and integrates several modern tools and libraries to enhance development and functionality.
+The **Clinic Management System** is built using **Vue 3** with **Vite**, integrating modern tools and libraries to provide a seamless development experience and powerful functionalities for managing clinic operations.
 
-Key Features
+---
 
-Tailwind CSS: For responsive and customizable styling.
+## 🔑 Key Features
 
-Socket.IO: Real-time communication.
+- **Tailwind CSS**:  
+  Utilize a utility-first CSS framework for rapid UI development, ensuring responsive and customizable designs.  
+- **Socket.IO**:  
+  Enable real-time, bidirectional communication between the server and client for dynamic updates.  
+- **SweetAlert2**:  
+  Elegant, customizable popup modals for enhanced user interactions.  
+- **Flowbite for Vue**:  
+  A comprehensive library of pre-designed components to speed up development.  
 
-SweetAlert2: Elegant popup modals for user interactions.
+---
 
-Documentation Reference: Flowbite for Vue
+## 🛠️ Recommended Development Environment
 
-Recommended Development Environment
+- **IDE**:  
+  [Visual Studio Code (VSCode)](https://code.visualstudio.com/) is recommended for its extensive ecosystem and user-friendly features.  
+- **Extensions**:
+  - **Volar** (Vue Language Features): Essential for Vue 3 development. *(Disable Vetur for optimal performance)*  
+  - Tailwind CSS IntelliSense: For autocomplete and syntax highlighting for Tailwind CSS classes.
 
-IDE: Visual Studio Code (VSCode)
+---
 
-Extensions:
+## 🚀 Setup Instructions
 
-Volar (Disable Vetur for best experience)
+### Step 1: Install Dependencies
 
-Setup Instructions
+Clone the project and run the following command in your terminal to install all necessary dependencies:
 
-Install Dependencies
-
-Run the following command to install the required dependencies:
-
+```bash
 npm install
+```
+### Step 2: Start Development Server
+Launch the development server with hot-reloading capabilities for an efficient development workflow:
 
-Development Mode
-
-To start the development server with hot-reloading:
-
+```bash
 npm run dev
+```
 
-Production Build
+📝 License
+Copyright © 2024 LeThanhNamCTUB2005848. All rights reserved.
 
-To compile and minify the project for production:
-
-npm run build
-
-Customize Configuration
-
-Refer to the Vite Configuration Documentation for advanced configuration options.
-
-Copyright (c) 2024 LeThanhNamCTUB2005848. All rights reserved.
+This project is licensed under a proprietary license. Unauthorized copying, modification, or distribution of this software is prohibited without explicit permission from the author.
